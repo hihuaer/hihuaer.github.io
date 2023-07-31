@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-07-31T07:58:25.022Z</updated>
+  <updated>2023-07-31T13:55:19.990Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>Hello World</title>
     <link href="http://example.com/2023/07/31/hello-world/"/>
     <id>http://example.com/2023/07/31/hello-world/</id>
-    <published>2023-07-31T07:58:25.022Z</published>
-    <updated>2023-07-31T07:58:25.022Z</updated>
+    <published>2023-07-31T08:18:42.419Z</published>
+    <updated>2023-07-31T13:55:19.990Z</updated>
     
     
       
@@ -34,6 +34,10 @@
     
     
     
+    
+    <category term="welcome" scheme="http://example.com/tags/welcome/"/>
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
     
   </entry>
   
