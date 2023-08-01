@@ -267,31 +267,29 @@
 
 
 
-  
-    <script async type="text/javascript" src="/plugins/valine.min.js" onload="loadValineSuc(this)"></script>
-  
 
-  <div id="vcomments"></div>
+
+  <div id="gitalk-container"></div>
 
   <script>
-    function loadValineSuc() {
-      new Valine({
-        el: '#vcomments',
-        appId: 'BrZI3ZtYpIuXwbqU3XAGPjtD-MdYXbMMI',
-        appKey: '6mSsqxPSrAUc0n9dE4XSaoud',
-        placeholder: 'Welcome!',
-        avatar: 'retro',
-        lang: 'zh-CN'
+    function loadGitalkSuc() {
+      const gitalk = new Gitalk({
+        clientID: 'de50e0444174d6cd9299',
+        clientSecret: 'd6d0ba200377c5290a257688383144ae9d0d8d03',
+        repo: 'hihuaer.github.io',
+        owner: 'hihuaer',
+        admin: ['hihuaer'],
+        id: location.pathname,
+        distractionFreeMode: false
       })
+
+      gitalk.render('gitalk-container')
     }
   </script>
-
-    <style>
-      .comments-container .v .vempty {
-        display: none!important;
-      }
-    </style>
-
+  
+    <link rel="stylesheet" href="/plugins/gitalk.css">
+    <script type="text/javascript" src="/plugins/gitalk.min.js" onload="loadGitalkSuc(this)"></script>
+  
 
 
 
