@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>reof&#39;s blog</title>
-  <icon>http://example.com/icon.png</icon>
+  <title>reof的小站</title>
+  <icon>http://reof.com/icon.png</icon>
   <subtitle>reof的个人网站</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="http://reof.com/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="http://reof.com/"/>
   <updated>2023-07-31T14:10:31.731Z</updated>
-  <id>http://example.com/</id>
+  <id>http://reof.com/</id>
   
   <author>
     <name>reof</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2023/07/31/hello-world/"/>
-    <id>http://example.com/2023/07/31/hello-world/</id>
+    <link href="http://reof.com/2023/07/31/hello-world/"/>
+    <id>http://reof.com/2023/07/31/hello-world/</id>
     <published>2023-07-31T08:18:42.419Z</published>
     <updated>2023-07-31T14:10:31.731Z</updated>
     
@@ -35,9 +35,9 @@
     
     
     
-    <category term="welcome" scheme="http://example.com/tags/welcome/"/>
+    <category term="welcome" scheme="http://reof.com/tags/welcome/"/>
     
-    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    <category term="hexo" scheme="http://reof.com/tags/hexo/"/>
     
   </entry>
   
